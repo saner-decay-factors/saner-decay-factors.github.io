@@ -1,4 +1,6 @@
-## Replication Package - Table of Contents
+## On the Influential Interactive Factors on Degrees of Design Decay: A Multi-Project Study
+
+### Replication Package - Table of Contents
 
 The following table contains links to different parts of our replication package:
 
