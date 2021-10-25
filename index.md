@@ -1,4 +1,4 @@
-# Replication Package - Table of Contents
+## Replication Package - Table of Contents
 
 The following table contains links to different parts of our replication package:
 
