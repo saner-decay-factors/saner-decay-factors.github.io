@@ -129,7 +129,11 @@
 
 **Observations**: Separated into two csvs for each project. They are named `<PROJECT>_low` for rules inferred from slightly-decayed classes and `<PROJECT>_high` for ones inferred from largely-decayed classes.
 
+A third set of CSVs, containing rules from all classes is present in the second link.
+
 **[Download Link](https://github.com/saner-decay-factors/saner-decay-factors.github.io/tree/main/replication_package/association_rules)**
+
+**[Download Link (All classes)](https://github.com/opus-research/decay_factors_replication/tree/master/replication_package/rules_all_groups)**
 
 ## Summarized Rules
 

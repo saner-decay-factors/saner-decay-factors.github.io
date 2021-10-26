@@ -1,0 +1,11 @@
+[Back](https://saner-decay-factors.github.io/)
+
+# Additional Analysis - Closed Source vs. Open Source
+
+Overall, software project S1 behaved differently from other projects, both in terms of distribution of decay score and of its related association rules. For example, similarly to other projects, most top interactions in its largely-decayed classes involved extraction refactorings. However, they mostly affected the inheritance attribute. Further analysis showed that these results were due to the low amount of refactorings mined from this project. This implies that new studies, with access to additional and larger projects, are needed to effectively investigate the differences between closed- and open-source projects.
+
+As we observed in the decay score distribution (see [Additional Analysis - Score Distribution](https://saner-decay-factors.github.io/visualization_score.html)), software project S1's decay score class distribution was the only that was not similar to any other software project, as it was the only one who did not have any classes approaching zero decay score. These differences also manifest when looking at the association rules mined for S1. 
+
+First, they did not follow the previously reported findings about extraction refactorings and new developers. In fact, for the slightly-decayed classes group and the all classes group, the only meaningful interactions between factors were regarding large and complex changes that modify few files. Those interactions had mostly negative effects. 
+
+Second, all of the top interactions for its largely-decayed classes that had effects on an attribute other than size, involved extraction refactoring interacting with different sub-factors from the change outcomes factor. But, contrary to the previous findings, all of these interactions had negative effects on only one attribute, which was inheritance. Since the confidence of some of these rules was abnormally high, with some of them reaching 100\%, a manual investigation revealed that these results were due to the low amount of extraction refactorings mined for this project. This implies that new studies, with access to additional and larger projects, are needed to effectively investigate the differences between closed- and open-source projects.
